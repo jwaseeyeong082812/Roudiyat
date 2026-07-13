@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header{
+            background-color: purple;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+        }
+       
+        .list{
+            display: flex;
+            text-decoration: none;
+            gap: 30px;
+        }
+        table{
+            border: 2.5px solid black;
+            background-color: plum;
+            width: 100%;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            border: 4px solid purple;
+            margin-top: 35px;
+            
+         }
+         input[text],[email],[number],[message]{
+            width:100%; ;
+            padding: 60px;
+        }
+         nav{
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+        .ert{
+            border: purple 2.5px solid;
+            text-align: center;
+            width: 100%;
+        }
+        .item0{
+            background-color: purple;
+            border-radius: 60px;
+            text-align: center;
+            padding: 5px;
+            margin-top: 35px;
+            color: white;
+        }
+        .wet{
+            
+            text-align: center;
+        }
+        .set{
+            
+            text-align: center;
+        }
+        @media (max-width:600px){
+         header{
+                font-size: 9px;
+               
+            }
+            .list{
+                gap: 5px;
+            }
+            
+        }
+        </style>
+    <title>CONTACT PAGE</title>
+</head>
+<body>
+    <header>
+        <h1>CONTACT</h1>
+        <nav class="list">
+            <a href="/index.html">HOME</a>
+            <a href="/about.html">ABOUT</a>
+            <a href="/admission.html">ADMISSION</a>
+            <a href="/contact.html">CONTACT</a>
+        </nav>
+        
+    </header>
+    <div class="wet">
+        <h3>CONTACT COURSE</h3>
+    </div>
+    <div class="ert">
+        <h2>Location</h2>
+        <h4>64 hunter street,hagger road,maidville,Mascar state,
+        Handwer</h4>
+            <h2>Phone NO</h2>
+            <h4>09074563482</h4>
+            <h2>Email</h2><h4>Zuo international@gmail.com</h4>
+    </div>
+    <div class="set">
+        <h3>OPENING HOURS</h3>
+        </div>
+        <table>
+        <thead>
+       <TR>
+        <th style="border: 2px solid black;">STUDENTS</th>
+        <th style="border: 2px solid black;">TIME</th>
+        <th style="border: 2px solid black;">OPTIONS</th>
+       </TR>
+       <TR>
+        <td style="border: 2px solid black;">Regular students</td>
+         <td style="border: 2px solid black;">7:30AM-2:20PM</td>
+         <td style="border: 2px solid black;">Compulsory</td>
+         </TR>
+       <tr>
+       
+        <td style="border: 2px solid black;">Boarding students</td>
+        <td style="border: 2px solid black;">8:00AM-2:40PM</td>
+        <td style="border: 2px solid black;">Compulsory</td>
+    </tr>
+       <TR>
+        <td style="border: 2px solid black;">Extra lessons</td>
+        <td style="border: 2px solid black;">3:00PM-5:00PM</td>
+        <td style="border: 2px solid black;">Voluntarily</td>
+       </TR>
+        </thead>
+        </table>
+
+       <form>
+        <label for="name">FULL NAME</label>
+        <input type="text" name="name">
+        <label for="email">EMAIL ADDRESS</label>
+        <input type="email" name="email">
+        <label for=" phone number">PHONE NUMBER</label>
+        <input type="number" name="phone number">
+        <label for="subject">SUBJECT</label>
+        <input type="text" name="subject">
+        <label for="message">MESSAGE</label>
+        <input type="text" name="message">
+       </form>
+        <div class="item0">
+        <h3>
+     &copy;ZUO INTERNATIONAL INSTITUITION,HARDWORK EQUALS SUCCESS.
+     </h3>
+     </div>
+</body>
+</html>

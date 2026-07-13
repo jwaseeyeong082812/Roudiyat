@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      *{
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+      }
+      body{
+         padding: 20px;
+      }
+        header{
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+        }
+         .list{
+            display: flex;
+            text-decoration: none;
+            gap: 40px;
+            color: white;
+         }
+         .parent1{
+            width: 100%;
+            height: 500px;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            gap: 20px;
+           border: 6px solid darkgreen;
+            border-radius: 80px;
+            margin-top: 30px;
+         }
+          .image1{
+            border-radius: 80px;
+            
+          }
+         
+         .item1{
+            color:darkgreen;
+            text-align: center;
+        
+         }
+         .parent2{
+            width: 100%;
+            display: flex;
+             gap: 20px;
+             margin-top: 20px;
+             }
+        .item2{
+            width: 50%;
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.425);
+            color: rgba(0, 128, 0, 0.979);
+            border-radius: 105px;
+            height: 100px;
+            
+        }
+        .item3{
+            width: 50%;
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.438);
+            color: rgba(0, 128, 0, 0.979);
+            border-radius: 105px;
+            height: 100px;
+         }
+         .parent3{
+            width: 100%;
+            justify-content: space-between;
+            display: flex;
+            margin-top: 20px;
+            align-items: center;
+
+         }
+        .provide{
+            width: 200%;
+            padding: 30px;
+            border-radius:80px ;
+             
+         }
+        .item5{
+            width:40%;
+            padding: 30px;
+            border-radius: 105px;
+            text-align: center;
+            background-color: darkgreen;
+            color: white;
+        }
+        .parent4{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+         }
+         .item6{
+             display: flex;
+            flex-direction: column;
+            background-color: darkgreen;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            height: 200px;
+            
+         }
+         .image2{
+            border-radius: 50px;
+            width: 250px;
+         }
+        .item7{
+            display: flex;
+            flex-direction: column;
+            background-color: darkgreen;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            height: 200px;
+         }
+         .item8{
+            display: flex;
+            flex-direction: column;
+            background-color: darkgreen;
+            color: white;
+            border-radius: 8px;
+              text-align: center;
+              align-items: center;
+            justify-content: space-between;
+            height: 200px;
+         }
+         .item9{
+            display: flex;
+            flex-direction: column;
+            background-color: darkgreen;
+            color: white;
+            border-radius: 8px;
+              text-align: center;
+              align-items: center;
+            justify-content: space-between;
+            height: 200px;
+         }
+         .item0{
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+            border-radius: 60px;
+            margin-top: 35px;
+         }
+         .jet{
+            border-radius: 60px;
+            border: 3px solid darkgreen;
+            text-align: center;
+            margin-top: 20px;
+         }
+         .hi{
+            margin-top: 50px;
+            text-align: center;
+            margin-bottom: 30px;
+         }
+          nav{
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+        @media (max-width:600px){
+          header{
+                font-size: 9px;
+                width: 100%;
+               
+            }
+         .parent1{
+            flex-direction: column;
+            height: auto;
+           
+         }
+         .image1{
+            width: 100%;
+         
+         }
+         .image1 img{
+            width: 100%;
+            height: 250px;
+         }
+
+         .parent4{
+            grid-template-columns: 1fr;
+         }
+         .parent2{
+            display: grid;
+            
+            
+         }
+         .item2{
+            width: 100%;
+            height: auto;
+            }
+         .item3{
+             width: 100%;
+         }
+         .parent3{
+            display: grid;
+         }
+         .provide{
+            width: 100%;
+         }
+         .item5{
+            width: 100%;
+         }
+         .item1{
+           font-size: 12px;
+         }
+         .list{
+            gap: 5px;
+         }
+         }
+          </style>
+    <title>ABOUT PAGE</title>
+         </head>
+<body>
+    <header>
+        <h1> ABOUT</h1>
+        <nav class="list">
+            <a href="/index.html">HOME</a>
+            <a href="/about.html">ABOUT</a>
+            <a href="/admission.html">ADMISSIONS</a>
+            <a href="/contact.html">CONTACT</a>
+        </nav>
+     </header>
+     <div class="parent1">
+        <div class="image1">
+        <img src="SHOOL INTERIOR.jfif" alt="image" class="image1" width="600px" height="450px">
+        </div>
+        <div class="item1">
+        <h2>our school provides maximum as well as quality equipments both
+        suitable and comfortable for learining .We occupy the mind
+        of the students with profound and adequate knowledge on
+        different aspects of studies, both computer related and non-computer
+        related.It was established in 2010 with the mission of providing 
+        quality education in a supportive and innovative environment.
+          We are committed to nurturing future leaders and responsible
+        citiziens our our country.</h2>
+        </div>
+     </div>
+     <div class="parent2">
+        <div class="item2">
+        <h2>OUR MISSION</h2>
+        <p>To provide and install quality education and knowledge
+            in the minds of our students inorder for them to make a 
+            positive impact in their supposed field.</p>
+        </div>
+        <div class="item3">
+            <h2>OUR VISION</h2>
+            <P>To be recognised and be respected while holding a leading 
+                image in the picture of following schools.</P>
+         </div>
+     </div>
+     <div class="jet">
+        <h3>WHY CHOOSE US</h3>
+        <h4>1. RESPONSIBILITY: We make sure our staff as well as 
+            our students are safe and healthy. As for the boarding
+            students we have health and balanced meals given to the students
+            three times a day for breakfast,lunch,and dinner.
+         </h4>
+         <h4>
+            2.STANDARD EDUCATION: We make sure that our students recieve
+            standard and quality education from our staffs.Any staff the
+             displays and act of ignorance towards the students education
+             will be responsible for it and will be expelled from the board of
+             staffs.
+         </h4>
+         <h4>
+            3.HIGH INTOLERANCE TO INDISIPLINE: We have a disiplinary committee
+            within the school. we will tolerate no form of indisipline in 
+            part of the student nor the staffs.Student we violate the rules
+             of the school shall be punished according to the rules and 
+             regulations of the school. 
+         </h4>
+     </div>
+     <div class="parent3">
+        <div class="item4">
+        <img src="LEE SHAO RIN.jfif" alt="image" class="provide" width="60%"
+         height="300px">
+        </div>
+        <div class="item5">
+         <h1>PRINCIPAL'S MESSAGE</h1>
+        <p>At Zuo international instituition,
+            we believe every child is unique and has the potential to 
+            achieve greatness. we are  dedicated to providing the 
+            guidiance,resourcesand oppurtunities they need to succeed
+        -Mr.James Hadderson</p>
+        </div>
+     </div>
+     <div class="hi">
+        <h2>OUR HEADS OF STAFF</h2>
+     </div>
+     <div class="parent4">
+        <div class="item6">
+            <img src="Gemini_Generated_Image_3wak393wak393wak.png" 
+            alt="image" class="image2" 
+            width="300px" height="">
+            <h3>Mrs. A.Peterson</h3>
+        </div>
+        <div class="item7">
+            <img src="Gemini_Generated_Image_r34xz5r34xz5r34x.png"
+            alt="image" class="image2" width="" height="">
+            <h3>Mrs. B.Fadil</h3>
+        </div>
+        <div class="item8">
+            <img src="Gemini_Generated_Image_3y1qkj3y1qkj3y1q.png" "
+             alt="image" width="" class="image2" height="">
+            <h3>Mr. C.Brown</h3>
+        </div>
+        <div class="item9">
+            <img src="Gemini_Generated_Image_q3r4bxq3r4bxq3r4.png" 
+            alt="image" width="" class="image2" height="">
+            <h3>Mr. G.Mustafa</h3>
+        </div>
+     </div>
+     <div class="item0">
+        <h3>
+     &copy;ZUO INTERNATIONAL INSTITUITION,HARDWORK EQUALS SUCCESS.
+     </h3>
+     </div>
+
+
+         
+           
+     
+
+
+</body>
+</html>
